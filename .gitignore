@@ -1,0 +1,37 @@
+# Python bytecode and tooling
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+.env
+
+# Generated runtime artifacts
+logs/*.log
+outputs/
+output/
+tmp/
+
+# Notebook checkpoints and editor files
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Office temporary files
+~$*.xlsx
+~$*.xlsm
+~$*.xls
